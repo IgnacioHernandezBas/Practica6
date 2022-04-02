@@ -15,7 +15,7 @@ public class TestDNI{
     DNI dni_false=new DNI("12345678");// Se crea un DNI incorrecto
     boolean estado_correcto=dni_true.validar(); // Se ejecta el metodo validar para ambos DNIs |correcto->false,incorrecto->true
     boolean estado_incorrecto=dni_false.validar();
-    assertEquals(true, estado_correcto);// Se comprueban lkas salidas esperadas
+    assertEquals(true, estado_correcto);// Se comprueban las salidas esperadas
     assertEquals(false,estado_incorrecto);
   }
 }
